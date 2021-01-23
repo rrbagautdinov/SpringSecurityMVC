@@ -1,0 +1,17 @@
+spring:
+  jpa:
+    database: POSTGRESQL
+    show-sql: true
+  datasource:
+    platform: postgres
+    url: jdbc:postgresql://localhost:5433/security?currentSchema=security
+    username: postgres
+    password: 14881488Qq
+    driverClassName: org.postgresql.Driver
+
+server:
+  port: 8190
+  servlet:
+    context-path: /
+
+
